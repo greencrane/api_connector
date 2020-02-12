@@ -1,0 +1,28 @@
+﻿{
+  "name": "Breadcrumbs",
+	"useNameAsFolder": false,
+  "buildConfig": {
+    "rootFile": "views/app.ts",
+    "jshintConfig": {
+      "sub": true
+    },
+    "localDependencies": [ ],
+    "outputCss": "app.css",
+    "outputFolder": "apps",
+    "requireCss": [ ],
+    "requireModules": [
+      {
+        "id": "backbone",
+        "name": "Backbone"
+      },
+      "Handlebars",
+      "QuickBase"
+    ],
+    "sourceFolders": {
+      "css": "css",
+      "images": "images",
+      "source": "./",
+      "templates": "templates"
+    }
+  }
+}
